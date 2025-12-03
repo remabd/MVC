@@ -9,10 +9,10 @@ class Connection
     private $db;
     public function __construct()
     {
-        $this->host = 'localhost';
-        $this->dbname = 'MVC';
-        $this->username = 'mimi';
-        $this->password = '5156';
+        $this->host = 'np16029-001.privatesql:35815';
+        $this->dbname = '';
+        $this->username = '';
+        $this->password = '';
         try {
             $this->db = new PDO(
                 'mysql:host=' . $this->host . ';dbname=' . $this->dbname . ';charset=utf8',
